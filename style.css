@@ -1,0 +1,26 @@
+#all{
+    display: grid;
+    justify-content: center;
+
+}
+#board{
+    display: grid;
+
+    /* specifies the number (and the widths) of columns in grid */
+    /* 3 columns, 100px width */
+    grid-template-columns: repeat(3, 1fr); 
+
+    justify-content: center;
+
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border:solid black 3px;
+    text-align: center;
+    font-size: 90px;
+}
+p{
+    text-align: center;
+
+}
